@@ -23,10 +23,9 @@ from conversation_notification import notificationConversation_handler
 
 
 if __name__ == '__main__':
-    # token real bot - '758302240:AAE4I8YXlhy5UKRMOTcYcxR2WDJOkRsiB3k'
+    # token real bot - ''
     # token test bot - '722203998:AAEbkJlsVsL6GEtoaM1P5uOwEO1cp59Jii0'
-    token = '722203998:AAEbkJlsVsL6GEtoaM1P5uOwEO1cp59Jii0' #test
-    #token = '669950033:AAFIslzL5nfxPms-aV6ivQmZdMEWPr1z6vw' # my another account
+    token = '' #test
     
     queue = mq.MessageQueue(all_burst_limit = 29, all_time_limit_ms = 1017)
     request = Request(con_pool_size = 8)
