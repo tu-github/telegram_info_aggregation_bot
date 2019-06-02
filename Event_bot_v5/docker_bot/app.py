@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 #CONNECTING TO MONGO DB
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://Admin:RUJl1ZRJDnSykPvu@gettingstarted-ry5t1.mongodb.net/test?retryWrites=true")
+client = MongoClient("")
 db_test = client.test
 db = client.university_events
 users = db.users
