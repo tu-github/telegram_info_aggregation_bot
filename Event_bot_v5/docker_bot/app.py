@@ -2081,8 +2081,8 @@ START THE BOT
 """
 if __name__ == '__main__':
     # token real bot - ''
-    # token test bot - '722203998:AAEbkJlsVsL6GEtoaM1P5uOwEO1cp59Jii0'
-    token = '722203998:AAEbkJlsVsL6GEtoaM1P5uOwEO1cp59Jii0' #test
+    # token test bot - ''
+    token = '' #test
     #bot = telegram.Bot(token)
     queue = mq.MessageQueue(all_burst_limit = 29, all_time_limit_ms = 1017)
     request = Request(con_pool_size = 8)
